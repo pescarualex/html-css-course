@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson 3 - hovers-transitions-shadows</title>
+</head>
+<body>
+
+
+
+   <button class="subscribe">SUBSCRIBE</button>
+   <button class="join">JOIN</button>
+   <button class="tweter">Tweet</button>
+
+
+   <style>
+    /* CSS Selector - tel the computer which elements from the page to target */
+    .subscribe {
+      /* CSS property : CSS Value */
+      background-color: rgb(200, 0, 0);
+      color: white;
+      padding: 10px;
+      border: none;
+      margin-right: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+
+    /* pseudo class - when hover over the button, the background color is changed */
+    .subscribe:hover {
+      opacity: 0.8;
+    }
+
+    /* when click on the button, the background color is changed */
+    .subscribe:active {
+      opacity: 0.5;
+    }
+
+    .join {
+      background-color: white;
+      border-color: blue;
+      color: blue;
+      padding: 8px;
+      margin-right: 10px;
+      border-radius: 5px;
+      border-style: solid;
+      border-width: 1px;
+      cursor: pointer;
+      transition: background-color 0.15s, color 0.15s;
+    }
+
+    .join:hover {
+      color: rgb(255, 255, 255);
+      background-color: blue;
+    }
+
+    .join:active {
+      opacity: 0.7;
+    }
+
+    .tweter {
+      color: white;
+      font-weight: bold;
+      padding: 8px;
+      border: none;
+      border-radius: 30px;
+      padding: 8px 15px;
+      background-color: rgb(5, 131, 209);
+      cursor: pointer;
+      transition: box-shadow 0.15s;
+    }
+
+    .tweter:hover {
+      /* horizontan, vertical, blur, color (rgba is like rgb but "a" stands for opacity) */
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+   </style>
+
+</body>
+</html>
