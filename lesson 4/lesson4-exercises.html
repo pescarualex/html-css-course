@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson4 exercises</title>
+</head>
+<body>
+
+  <style>
+    /* 4h */
+    button, a {
+      padding: 10px 5px;
+      margin: 0 2px;
+    }
+
+    /* 4i */
+    .stretch {
+      border: none;
+      background-color: green;
+      color: white;
+      padding: 5px 10px;
+      transition: padding 0.20s;
+    }
+
+    .stretch:hover {
+      padding: 15px 30px;
+    }
+
+
+    .shadow {
+      border: none;
+      background-color: green;
+      color: white;
+      padding: 5px 10px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.205);
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+
+    .shadow:active {
+      box-shadow: none;
+      transform: translate(5px, 5px);
+    }
+
+    .buttons-together {
+      border: none;
+      background-color: green;
+      color: white;
+      padding: 5px 10px;
+      transition: padding 0.15s;
+    }
+
+    .buttons-together:hover {
+      padding: 5px 15px;
+    }
+
+
+  </style>
+  
+
+  <!-- 4h -->
+<button>Back</button>
+<a href="">1</a>
+<a href="">2</a>
+<a href="">3</a>
+<a href="">4</a>
+<a href="">5</a>
+<button>Next</button>
+
+
+<p>____________________________</p>
+
+<!-- 4i -->
+ <button class="stretch">Stretch</button>
+
+ <p>____________________________</p>
+
+ <!--4j 3D click -->
+ <button class="shadow">Shadow</button>
+
+ <p>____________________________</p>
+
+ <!-- 4k -->
+  <button class="buttons-together">One</button>
+  <button class="buttons-together">Two</button>
+  <button class="buttons-together">Three</button>
+
+
+
+
+</body>
+</html>
