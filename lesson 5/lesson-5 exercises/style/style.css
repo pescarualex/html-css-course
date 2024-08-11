@@ -1,0 +1,171 @@
+p {
+  margin: 0;
+}
+
+.tahoma-font{
+  font-family: Tahoma;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family: Arial;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.sub-title {
+  font-style: italic;
+  color: red;
+  margin-bottom: 20px;
+}
+
+
+
+.course-title {
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+.course-dificulty {
+  font-family: Verdana;
+  font-size: 15px;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.course-description {
+  width: 230px;
+  font-family: Verdana;
+  margin-bottom: 15px;
+}
+
+.course-btn {
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  font-family: Verdana;
+  padding: 10px 20px;
+  color: white;
+  background-color: green;
+  font-weight: bold;
+}
+
+
+.apple-title {
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.apple-description {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.apple-learn-more {
+  color: blue;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+
+
+.apple {
+  font-family: Arial;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.apple-new {
+  color: orange;
+  font-weight: bold;
+}
+
+.apple-device-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.apple-device-description {
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.apple-device-price {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.apple-buy-btn {
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  color: white;
+  background-color: blue;
+  padding: 5px 15px;
+}
+
+
+
+
+
+.price {
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.currency {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 15px;
+  color: grey;
+}
+
+.growth {
+  font-family: Arial;
+  color: green;
+  margin-bottom: 5px;
+}
+
+.after-hours {
+  font-family: Arial;
+  color: grey;
+  margin-bottom: 5px;
+}
+
+.after-hours-growth {
+  color: red;
+}
+
+
+
+
+
+.comm-title {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.comm-author {
+  color: grey;
+  font-weight: normal;
+}
+
+.comm-description{
+  font-family: Arial;
+  line-height: 22px;
+  width: 520px;
+  margin-bottom: 15px;
+}
+
+.comm-tag {
+  color: rgb(0, 115, 255);
+}

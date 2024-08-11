@@ -1,3 +1,13 @@
 {
-  "liveServer.settings.port": 5501
+	"liveServer.settings.port": 5501,
+	"breadcrumbs.enabled": true,
+	"workbench.settings.useSplitJSON": false,
+	"breadcrumbs.showEnumMembers": false,
+	"workbench.editor.alwaysShowEditorActions": false,
+	"zenMode.hideActivityBar": false,
+	"workbench.editor.tabActionCloseVisibility": true,
+	"workbench.editor.closeOnFileDelete": false,
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"workbench.editor.pinnedTabsOnSeparateRow": true,
+	"workbench.editor.highlightModifiedTabs": true
 }
