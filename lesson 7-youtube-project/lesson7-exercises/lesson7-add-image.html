@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson7 - add image</title>
+
+  <style>
+    .thumbnail-1{
+      width: 300px;
+    }
+
+    .search-dashbar {
+      font-size: 20px;
+      margin: 0px 12px;
+    }
+
+    /* exercises */
+    .ex-img-1 {
+      width: 200px;
+      border-radius: 10px;
+    }
+
+    .ex-img-2 {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 150px;
+    }
+
+
+    .input-1 {
+      border-radius: 5px;
+      width: 300px;
+      padding: 10px;
+    }
+
+    .input-2 {
+      width: 400px;
+      padding: 10px;
+      border: none transparent;
+      outline: none;
+      border-radius: 30px;
+      box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.15);
+    }
+
+
+    .title-input {
+      margin-bottom: 5px;
+    }
+
+    .email {
+      width: 240px;
+      margin: 0;
+    }
+
+    .text-container {
+      font-size: 10px;
+    }
+
+    .agree-join-btn {
+      border: none;
+      color: white;
+      background-color: blue;
+      padding: 8px 80px;
+      border-radius: 30px;
+    }
+
+
+    .container {
+      display: flex;
+      align-items: center;
+      width: 400px;
+      border-radius: 150px;
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+      
+    }
+
+    .img-3, .placeholder, .tweet-btn {
+      display: inline;
+
+    }
+
+    .img-3 {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+      object-fit: cover;
+      border-radius: 35px;
+    }
+
+    .placeholder {
+      font-size: 15px;
+      border: none transparent;
+      outline: none;
+      width: 270px;
+      padding: 10px 4px;
+    }
+
+    .tweet-btn {
+      /* margin-left: 50px; */
+      border: none;
+      color: white;
+      background-color: rgb(98, 147, 237);
+      padding: 5px 10px;
+      border-radius: 15px;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <img class="thumbnail-1" src="../img/thumbnail-1.webp">
+  <input class="search-dashbar" type="text" placeholder="search">
+
+  <p>____________________________________________________________________________________________________</p>
+
+
+  <!-- exercises -->
+  <!-- 7a -->
+  <img class="ex-img-1" src="../img/thumbnail-1.webp">
+
+  <p>____________________________________________________________________________________________________</p>
+
+
+
+  <!-- 7b 7c -->
+   <img class="ex-img-2" src="../img/thumbnail-1.webp" alt="photo">
+
+
+   <p>____________________________________________________________________________________________________</p>
+
+
+  <!-- 7d -->
+  <input class="input-1" type="text" placeholder="Search">
+
+
+  <p>____________________________________________________________________________________________________</p>
+
+
+  <!-- 7d -->
+  <input class="input-2" type="text" placeholder="Search Google or type a URL">
+
+  <p>____________________________________________________________________________________________________</p>
+
+  <!-- 7f -->
+  <p class="title-input">Email</p>
+  <input class="email" type="email">
+  <p class="text-container">By clicking Agree & Join, you are agree to the Privacy Policy</p>
+  <button class="agree-join-btn">Agree & Join</button>
+
+  <p>____________________________________________________________________________________________________</p>
+
+
+  <!-- 7g -->
+   <div class="container">
+    <img class="img-3" src="../img/thumbnail-1.webp" alt="photo">
+    <input class="placeholder" placeholder="What's happening?">
+    <button class="tweet-btn">Tweet</button>
+   </div>
+
+
+</body>
+</html>
