@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson 9 - exercises</title>
+
+  <style>
+
+    .red-square {
+      width: 50px;
+      height: 50px;
+      background-color: red;
+    }
+
+    .green-circle {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      background-color: green;
+    }
+
+    .container {
+      border: 1px solid black;
+      display: inline-block;
+      padding: 10px 10px;
+    }
+
+    .youtube-container {
+      width: 380px;
+      display: inline-block;
+      background-color: rgb(32, 29, 29);
+      padding: 10px 15px;
+    }
+
+    .youtube-container p:nth-child(1) {
+      font-family: Arial;
+      color: rgb(226, 226, 226);
+      font-weight: bold;
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .youtube-container p:nth-child(2) {
+      font-family: Arial;
+      color: rgb(161, 156, 156);
+    }
+
+
+
+
+    .tweet-container {
+      display: inline-block;
+      width: 400px;
+      padding: 10px;
+      box-shadow: 1px 1px 12px rgba(0,0,0,0.15);
+      border-radius: 5px;
+    }
+
+
+    .tweet-author {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      object-fit: cover;
+      margin-right: 5px;
+    }
+
+    .tweet-author,
+    .tweet-content,
+    .tweet-btn {
+      vertical-align: middle;
+    }
+
+    .tweet-content {
+      border: none;
+      outline: none;
+      padding: 5px;
+      width: 200px;
+    }
+
+    .tweet-btn {
+      border: none;
+      border-radius: 25px;
+      padding: 10px 15px;
+      font-weight: bold;
+      color: white;
+      background-color: rgb(57, 171, 241);
+      margin-left: 50px;
+    }
+
+
+
+
+
+    .card-container {
+      display: inline-block;
+      width: 200px;
+      height: 330px;
+      margin-left: 10px;
+      box-shadow: 0px 0px 15px rgba(0,0,0,0.18);
+    }
+
+    .person {
+      width: 200px;
+      height: 230px;
+      object-fit: cover;
+    }
+
+    .name,
+    .connections {
+      padding: 0px 5px;
+    }
+
+    .name {
+      margin: 3px 2px;
+      font-weight: bold;
+      font-family: Arial;
+    }
+
+    .connections {
+      margin: 10px 2px;
+      font-family: Arial;
+      color: grey;
+    }
+
+    .add-btn {
+      border: none;
+      color: white;
+      background-color: rgb(32, 117, 253);
+      margin-left: 8px;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+  </style>
+
+
+
+</head>
+<body>
+
+  <!-- 9a -->
+<div class="red-square"></div>
+
+<p>_________________________________________________________</p>
+
+<!-- 9b -->
+<div class="green-circle"></div>
+
+<p>_________________________________________________________</p>
+
+<!-- 9c -->
+<div class="container">
+  <p>Satisfied with our service?</p>
+  <button>Yes</button>
+  <button>No</button>
+</div>
+
+<p>_________________________________________________________</p>
+
+<!-- 9d -->
+<div class="youtube-container">
+  <p>Install YouTube Music</p>
+  <p>Add YouTube Music to your desktop for quick and easy access</p>
+</div>
+
+<p>_________________________________________________________</p>
+
+<!-- 9e -->
+<div class="tweet-container">
+  <img class="tweet-author" src="../lesson 7/img/thumbnail-2.webp" alt="">
+  <input class="tweet-content" type="text" placeholder="What's happening?">
+  <button class="tweet-btn">Tweet</button>
+</div>
+
+<p>_________________________________________________________</p>
+
+<!-- 9f -->
+<div class="card-container">
+  <img class="person" src="../lesson 7/img/thumbnail-2.webp" alt="">
+  <p class="name">Oliver</p>
+  <p class="connections">2 mutual friends</p>
+  <button class="add-btn">Add Friend</button>
+</div>
+
+
+
+<!-- 9g -->
+<!-- just added inline-block property to display for card-container -->
+<div class="card-container">
+  <img class="person" src="../lesson 7/img/thumbnail-1.webp" alt="">
+  <p class="name">Mimi</p>
+  <p class="connections">3 mutual friends</p>
+  <button class="add-btn">Add Friend</button>
+</div>
+
+<div class="card-container">
+  <img class="person" src="../lesson 7/img/google-logo.jpeg" alt="">
+  <p class="name">Rex</p>
+  <p class="connections">4 mutual friends</p>
+  <button class="add-btn">Add Friend</button>
+</div>
+
+<div class="card-container">
+  <img class="person" src="../lesson 7/img/Google_2015_logo.svg.png" alt="">
+  <p class="name">Oliver</p>
+  <p class="connections">2 mutual friends</p>
+  <button class="add-btn">Add Friend</button>
+</div>
+  
+</body>
+</html>
