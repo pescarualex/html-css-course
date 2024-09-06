@@ -1,0 +1,201 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.con1 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.con2 {
+  background-color: lightcoral;
+  width: 75px;
+}
+
+.containerB {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.con1B {
+  background-color: lightblue;
+  width: 50px;
+}
+
+.con2B {
+  background-color: lightcoral;
+  flex: 1;
+}
+
+.con3B {
+  background-color: lightsalmon;
+  width: 75px;
+}
+
+
+.containerC {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+
+.con1c {
+  background-color: lightblue;
+}
+
+.con2c {
+  background-color: lightcoral;
+}
+
+.con3c {
+  background-color: lightsalmon;
+
+}
+
+.con4c {
+  background-color: lightgreen;
+}
+
+
+.containerD {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  border: 1px solid black;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+
+
+
+p {
+  margin: 0;
+  font-family: Arial;
+}
+
+.menu {
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 12px rgba(96, 96, 96);
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+.sub-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.number {
+  color: white;
+  background-color: rgb(68, 109, 243);
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+
+
+
+.header {
+  height: 40px;
+  background-color: rgb(118, 26, 205);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 16px;
+  margin-bottom: 30px;
+}
+
+
+.home-btn{
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 96px;
+}
+
+.search {
+  flex: 1;
+  max-width: 720px;
+  height: 24px;
+  padding: 4px 16px;
+  border-radius: 32px;
+}
+
+.down-container {
+  width: 96px;
+}
+
+.download {
+  background-color: rgb(118, 26, 205);
+  border-color: white;
+  border-width: 1px;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+.content {
+  width: 350px;
+  height: 240px;
+  box-shadow: 0px 0px 12px rgba(96, 96, 96);
+  padding: 15px;
+}
+
+.cat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cat img {
+  width: 60px;
+  border-radius: 50px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 15px;
+}
+
+.name, .nickname, .liked {
+  width: 60px;
+  margin-bottom: 3px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.nickname, .liked {
+  color: grey;
+}
+
+.follow {
+  width: 80px;
+  height: 35px;
+  color: white;
+  background-color: rgb(53, 138, 235);
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
