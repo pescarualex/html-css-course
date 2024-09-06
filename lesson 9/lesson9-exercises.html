@@ -177,12 +177,20 @@
       font-family: Arial;
     }
 
+    .buttons-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
     .google-btn1 {
-      margin-left: 265px;
+      border: none;
+
     }
 
     .google-btn2 {
-      margin-left: 20px;
+      margin-left: 15px;
+      border: none;
     }
 
   </style>
@@ -267,8 +275,10 @@
 <div class="google-container">
   <img class="google-logo" src="../lesson 7/img/Google_2015_logo.svg.png" alt="">
   <input class="google-search" type="text" placeholder="Search Google or type a URL">
-    <p class="span google-btn1">Google Search</p>
-    <p class="span google-btn2">I'm Feeling Lucky</p>
+    <div class="buttons-container">
+      <button class="span google-btn1">Google Search</button>
+      <button class="span google-btn2">I'm Feeling Lucky</button>
+    </div>
 </div>
 
 
