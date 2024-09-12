@@ -1,0 +1,199 @@
+body {
+  padding-right: 120px;
+}
+
+
+.container{
+  color: white;
+  background-color: black;
+  position: fixed;
+  right: 120px;
+  bottom: 20px;
+}
+
+.sidebar {
+  position: fixed;
+  background-color: green;
+  color: white;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+}
+
+
+
+
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.content {
+  width: 400px;
+  height: 150px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.add-friend {
+  display: flex;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  height: 60px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.8);
+}
+
+.info {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding-left: 70px;
+  justify-content: flex-start;
+}
+
+.profile-img {
+  height: 40px;
+  border-radius: 30px;
+}
+
+.name {
+  margin-left: 10px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btns {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 70px;
+}
+
+.btn1, .btn2 {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100px;
+  height: 30px;
+}
+
+.btn1 {
+  margin-right: 10px;
+  color: white;
+  background-color: rgb(0, 106, 255);
+}
+
+
+
+
+
+
+.discord-sidebar {
+  display: flex;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  bottom: 0;
+  width: 280px;
+  background-color: rgb(48, 48, 48);
+}
+
+.accounts-container {
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 10px;
+  margin-top: 16px;
+}
+
+.account-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+
+.discord-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 23px;
+  background-color: rgb(67, 66, 66);
+  flex: 1;
+}
+
+.titles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titles p {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.titles i {
+  color: white;
+  padding-right: 20px;
+}
+
+.tags-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tags {
+  margin: 5px 0px 5px 0;
+  color: rgb(158, 158, 158);
+  font-family: Arial;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
