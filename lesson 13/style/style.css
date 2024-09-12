@@ -1,0 +1,213 @@
+.container1 {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.red {
+  background-color: red;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  color: white;
+  background-color: black;
+}
+
+.blue {
+  background-color: blue;
+  width: 200px;
+}
+
+
+.container2 {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.lightred {
+  background-color: lightcoral;
+  width: 100px;
+}
+
+.lightblue {
+  background-color: lightblue;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row2 {
+  color: white;
+  background-color: black;
+}
+
+
+
+
+
+.gmail-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  box-shadow: 0px 0px 10px rgba(0,0,0, 0.20);
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.person-img {
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.column {
+  flex: 1;
+  margin-bottom: 15px;
+}
+
+.subject-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.subject, .subject2, .description, .time {
+  margin: 0;
+}
+
+.title {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  font-size: 13px;
+  color: rgb(148, 146, 146);
+  font-family: Roboto, Arial;
+}
+
+
+.subject, .time, .subject2, .description {
+  font-family: Roboto, Arial;
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+
+.subject {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.subject2 {
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.description {
+  color: rgb(142, 141, 141);
+  margin-left: 10px;
+  font-size: 10px;
+}
+
+.time {
+  margin-right: 15px;
+  font-size: 10px;
+}
+
+
+
+
+
+
+
+.twitter-container {
+  width: 400px;
+  display: flex;
+  padding: 10px;
+  box-shadow: 0px 0px 12px rgba(0,0,0, 0.20);
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.tweet-content {
+  flex: 1;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.tweet-header {
+  display: flex;
+}
+
+.person-name {
+  font-weight: bold;
+  font-family: Roboto, Arial;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.person-username {
+  font-family: Roboto, Arial;
+  margin-left: 5px;
+  color: rgb(147, 147, 147);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.tweet-description {
+  margin-top: 2px;
+  margin-bottom: 10px;
+  font-family: Roboto, Arial;
+}
+
+
+
+.yt-link {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 10px;
+}
+
+.blank {
+  width: 100px;
+  background-color: rgb(214, 214, 214);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-left: -1px;
+}
+
+.yt-content {
+  flex: 1;
+  padding: 5px 10px;
+  align-items: start;
+}
+
+.youtube {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: rgb(147, 147, 147);
+  font-family: Roboto, Arial;
+}
+
+.course-title {
+  font-family: Roboto, Arial;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
