@@ -69,6 +69,43 @@
   margin-right: 10px;
 }
 
+.search-btn, 
+.voice-btn, 
+.icons-container,
+.notifications-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-btn .tooltip,
+.voice-btn .tooltip,
+.icons-container .tooltip,
+.notifications-container .tooltip {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+  font-family: Roboto, Arial;
+}
+
+.search-btn:hover .tooltip,
+.voice-btn:hover .tooltip,
+.icons-container:hover .tooltip,
+.notifications-container:hover .tooltip {
+  opacity: 1;
+}
+
+
+
 .voice-btn {
   height: 40px;
   width: 40px;

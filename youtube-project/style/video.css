@@ -24,11 +24,59 @@
   width: 50px;
   height: 50px;
   vertical-align: top;
-
+  position: relative;
 }
 
+.profile-picture-container {
+  position: relative;
+}
+
+.profile-picture-container .tooltip {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: white;
+  border-radius: 5px;
+  width: 200px;
+  height: 60px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  left: 5px;
+  bottom: -60px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.profile-picture-container:hover .tooltip {
+  opacity: 1;
+}
+
+.tooltip img {
+  height: 45px;
+  border-radius: 25px;
+  margin-left: 10px;
+}
+
+.tooltip-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.tooltip-info p:nth-child(1) {
+  font-size: 14px;
+  font-family: Roboto, Arial;
+  font-weight: bold;
+}
+
+.tooltip-info p:nth-child(2) {
+  font-size: 12px;
+  font-family: Roboto, Arial;
+}
+
+
+
 .thumbnail-row {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   position: relative;
 }
 
@@ -46,7 +94,7 @@
 }
 
 .profile-picture {
-  width: 40px;
+  width: 36px;
   border-radius: 25px;
   margin-left: 5px;
 }
@@ -55,9 +103,14 @@
   width: 200px;
 }
 
+.video-info a {
+  text-decoration: none;
+  color: black;
+}
+
 .video-title {
   margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   font-family: Roboto, Arial;
   font-size: 14px;
   font-weight: 500;
